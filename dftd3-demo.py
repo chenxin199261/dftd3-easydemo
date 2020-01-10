@@ -28,7 +28,7 @@ mol.symmetry = 0
 mol.verbose = 4
 mol.build()
 
-def mf_grad_with_dftd3(mol):
+def dftd3_inter(mol):
     _loaderpath = '/home/xchen/develope/libdftd3/lib'
     libdftd3 = numpy.ctypeslib.load_library('libdftd3.so', _loaderpath)
 
